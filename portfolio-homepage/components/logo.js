@@ -18,13 +18,12 @@ padding: 10px;
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    const shscribbleImg = `/images/shscribble${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/">
-            <a>
                 <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo" />
+                    <Image src={shscribbleImg} width={50} height={50} alt="logo" />
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M Plus Round 1c'
@@ -33,7 +32,6 @@ const Logo = () => {
                         Shawn Varghese
                     </Text>
                 </LogoBox>
-            </a>
         </Link>
     )
 }
