@@ -18,7 +18,7 @@ padding: 10px;
 `
 
 const Logo = () => {
-    const shscribbleImg = `/images/shscribble${useColorModeValue('', '-light')}.png`
+    const shscribbleImg = `/images/shscribble${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/">
